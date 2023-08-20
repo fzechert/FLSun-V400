@@ -1,0 +1,11 @@
+[crowsnest]
+log_path: ~/printer_data/logs/crowsnest.log
+log_level: quit
+
+[cam 1]
+mode: mjpg
+port: 8080
+device: /dev/video0
+resolution: 800x600
+max_fps: 15
+custom_flags: --device-timeout=30
