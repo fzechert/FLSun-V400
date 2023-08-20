@@ -1,16 +1,25 @@
-# FLSUN V400 Cura Printer Profiles
+# This repository contains useful files for FLSun V400 3D Printer
 
-The profiles in this repository are intended for a FLSun V400 3D printer, that has been flashed over to the
+This repository contains useful files for printing with the FLSun V400 3D Printer, i.e. printer configuration files, Cura profiles, and material settings.
+
+This could not be possible without the great work of
+
+- <https://github.com/Guilouz/Klipper-Flsun-Speeder-Pad>
+- <https://github.com/phnxdrgn536/FLSun-v400>
+
+## FLSUN V400 Cura Printer Profiles
+
+The profiles in this repository (`cura-profiles`) are intended for a FLSun V400 3D printer, that has been flashed over to the
 official version of Klipper (e.g. by following the process described in <https://github.com/Guilouz/Klipper-Flsun-Speeder-Pad>). 
 It may be incompatible with the modified FLSun version of Klipper!
 
 Large parts of the profiles have been taken from [phnxdrgn536/FLSun-v400](https://github.com/phnxdrgn536/FLSun-v400). They have been modified and simplified
 (e.g. some materials, nozzle sizes and intents were omitted).
 
-An install script ([install.sh](install.sh)) has been added to support installation on linux.  
-**Warning:** Read and configure [install.sh](install.sh) before you execute it. **It will delete some files on your hard disk!**
+An install script ([cura-profiles/install.sh](cura-profiles/install.sh)) has been added to support installation on linux.  
+**Warning:** Read and configure [install.sh](cura-profiles/install.sh) before you execute it. **It will delete some files on your hard disk!**
 
-## How Profiles are Loaded
+### How Profiles are Loaded
 
 Cura loads printer quality configuration files in a stack. The following files must be present for a profile to work:
 
