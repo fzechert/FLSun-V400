@@ -28,6 +28,9 @@
     <setting key="retraction amount">1</setting>
     <cura:setting key="retraction_prime_speed">6</cura:setting>
     <cura:setting key="retraction_extra_prime_amount">0.07</cura:setting>
+    <cura:setting key="klipper_pressure_advance_factor">0.03</cura:setting>
+    <cura:setting key="klipper_smooth_time_enable">yes</cura:setting>
+    <cura:setting key="klipper_smooth_time_factor">0.01</cura:setting>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy3proV2" />
       <setting key="print temperature">200</setting>
