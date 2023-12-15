@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CURRENT_DIR=$(realpath "$(dirname "$0")")
-CURA_CONFIG_FOLDER="${HOME}/.local/share/cura/5.5"
+CURA_CONFIG_FOLDER="${HOME}/.local/share/cura/5.6"
 CURA_INSTALL_FOLDER="/opt/ultimaker-cura"
 
 if [ ! -e "${CURA_CONFIG_FOLDER}" ]; then
