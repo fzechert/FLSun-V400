@@ -7,7 +7,7 @@
         "author": "FLSUN, Joseph Jackson, Frank Zechert",
         "manufacturer": "Flsun",
         "file_formats": "application/x-ufp;text/x-gcode",
-		"platform": "flsun_v400.stl",
+        "platform": "flsun_v400.stl",
         "platform_offset": [0,-40.6455,-43.5],
         "has_machine_quality": true,
         "has_variants": true,
@@ -365,7 +365,7 @@
                 "speed_equalize_flow_width_factor":
                 {
                     "label": "Flow Equalization Ratio",
-                    "description": "Extrusion width based correction factor on the speed. At 0% the movement speed is kept constant at the Print Speed. At 100% the movement speed is adjusted so that the flow (in mm³/s) is kept constant, i.e. lines half the normal Line Width are printed twice as fast and lines twice as wide are printed half as fast. A value larger than 100% can help to compensate for the higher pressure required to extrude wide lines.",
+                    "description": "Extrusion width based correction factor on the speed. At 0% the movement speed is kept constant at the Print Speed. At 100% the movement speed is adjusted so that the flow (in mm\u00b3/s) is kept constant, i.e. lines half the normal Line Width are printed twice as fast and lines twice as wide are printed half as fast. A value larger than 100% can help to compensate for the higher pressure required to extrude wide lines.",
                     "type": "float",
                     "unit": "%",
                     "default_value": 100.0,
@@ -399,7 +399,7 @@
                 {
                     "label": "Print Acceleration",
                     "description": "The acceleration with which printing happens.",
-                    "unit": "mm/s²",
+                    "unit": "mm/s\u00b2",
                     "type": "float",
                     "minimum_value": "0.1",
                     "minimum_value_warning": "100",
@@ -413,7 +413,7 @@
                         {
                             "label": "Infill Acceleration",
                             "description": "The acceleration with which infill is printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -428,7 +428,7 @@
                         {
                             "label": "Wall Acceleration",
                             "description": "The acceleration with which the walls are printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -443,7 +443,7 @@
                                 {
                                     "label": "Outer Wall Acceleration",
                                     "description": "The acceleration with which the outermost walls are printed.",
-                                    "unit": "mm/s²",
+                                    "unit": "mm/s\u00b2",
                                     "type": "float",
                                     "minimum_value": "0.1",
                                     "minimum_value_warning": "100",
@@ -458,7 +458,7 @@
                                 {
                                     "label": "Inner Wall Acceleration",
                                     "description": "The acceleration with which all inner walls are printed.",
-                                    "unit": "mm/s²",
+                                    "unit": "mm/s\u00b2",
                                     "type": "float",
                                     "minimum_value": "0.1",
                                     "minimum_value_warning": "100",
@@ -505,7 +505,7 @@
                         {
                             "label": "Top Surface Skin Acceleration",
                             "description": "The acceleration with which top surface skin layers are printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -520,7 +520,7 @@
                         {
                             "label": "Top/Bottom Acceleration",
                             "description": "The acceleration with which top/bottom layers are printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -535,7 +535,7 @@
                         {
                             "label": "Support Acceleration",
                             "description": "The acceleration with which the support structure is printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -552,7 +552,7 @@
                                 {
                                     "label": "Support Infill Acceleration",
                                     "description": "The acceleration with which the infill of support is printed.",
-                                    "unit": "mm/s²",
+                                    "unit": "mm/s\u00b2",
                                     "type": "float",
                                     "default_value": 3000,
                                     "value": "acceleration_support",
@@ -568,7 +568,7 @@
                                 {
                                     "label": "Support Interface Acceleration",
                                     "description": "The acceleration with which the roofs and floors of support are printed. Printing them at lower acceleration can improve overhang quality.",
-                                    "unit": "mm/s²",
+                                    "unit": "mm/s\u00b2",
                                     "type": "float",
                                     "default_value": 3000,
                                     "value": "acceleration_support",
@@ -585,7 +585,7 @@
                                         {
                                             "label": "Support Roof Acceleration",
                                             "description": "The acceleration with which the roofs of support are printed. Printing them at lower acceleration can improve overhang quality.",
-                                            "unit": "mm/s²",
+                                            "unit": "mm/s\u00b2",
                                             "type": "float",
                                             "default_value": 3000,
                                             "value": "extruderValue(support_roof_extruder_nr, 'acceleration_support_interface')",
@@ -601,7 +601,7 @@
                                         {
                                             "label": "Support Floor Acceleration",
                                             "description": "The acceleration with which the floors of support are printed. Printing them at lower acceleration can improve adhesion of support on top of your model.",
-                                            "unit": "mm/s²",
+                                            "unit": "mm/s\u00b2",
                                             "type": "float",
                                             "default_value": 3000,
                                             "value": "extruderValue(support_bottom_extruder_nr, 'acceleration_support_interface')",
@@ -621,7 +621,7 @@
                         {
                             "label": "Prime Tower Acceleration",
                             "description": "The acceleration with which the prime tower is printed.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "minimum_value": "0.1",
                             "minimum_value_warning": "100",
@@ -637,7 +637,7 @@
                 {
                     "label": "Travel Acceleration",
                     "description": "The acceleration with which travel moves are made.",
-                    "unit": "mm/s²",
+                    "unit": "mm/s\u00b2",
                     "type": "float",
                     "default_value": 5000,
                     "minimum_value": "0.1",
@@ -651,7 +651,7 @@
                 {
                     "label": "Initial Layer Acceleration",
                     "description": "The acceleration for the initial layer.",
-                    "unit": "mm/s²",
+                    "unit": "mm/s\u00b2",
                     "type": "float",
                     "default_value": 3000,
                     "value": "acceleration_print",
@@ -666,7 +666,7 @@
                         {
                             "label": "Initial Layer Print Acceleration",
                             "description": "The acceleration during the printing of the initial layer.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "default_value": 3000,
                             "value": "acceleration_layer_0",
@@ -680,7 +680,7 @@
                         {
                             "label": "Initial Layer Travel Acceleration",
                             "description": "The acceleration for travel moves in the initial layer.",
-                            "unit": "mm/s²",
+                            "unit": "mm/s\u00b2",
                             "type": "float",
                             "default_value": 3000,
                             "value": "acceleration_layer_0 * acceleration_travel / acceleration_print",
@@ -697,7 +697,7 @@
                 {
                     "label": "Skirt/Brim Acceleration",
                     "description": "The acceleration with which the skirt and brim are printed. Normally this is done with the initial layer acceleration, but sometimes you might want to print the skirt or brim at a different acceleration.",
-                    "unit": "mm/s²",
+                    "unit": "mm/s\u00b2",
                     "type": "float",
                     "default_value": 3000,
                     "value": "acceleration_layer_0",
