@@ -2,4 +2,4 @@
 
 | Material                | Noz. Temp. | Bed Temp. | Retr. Spd. | Retr. Len. | Unr. Spd. | Unr. Extra Len. | Pres. Adv. | Pres. Adv. Smooth Time |
 |------------------------:|:-----------|:----------|:-----------|:-----------|:----------|:----------------|:-----------|:-----------------------|
-| 3D Jake Eco PLA - Black | 215°C      | 60°C      | 25mm/s     | 1 mm       | 6 mm/s    | 0.07 mm         | 0.01 s     | 0.01 s                 |
+| SunLU Silver            | 220 °C     | 60 °C     | 60 mm/s    | 1.5 mm     | 20 mm/s   | 0.05 mm         | 0.066      | 0.04                   |
