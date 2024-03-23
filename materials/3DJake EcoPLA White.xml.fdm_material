@@ -25,12 +25,13 @@
     <setting key="print cooling">100</setting>
     <setting key="adhesion tendency">0</setting>
     <setting key="surface energy">100</setting>
-    <setting key="retraction amount">1.25</setting>
-    <setting key="retraction speed">10</setting>
-    <cura:setting key="retraction_extra_prime_amount">0.05</cura:setting>
+    <setting key="retraction amount">0.75</setting>
+    <setting key="retraction speed">50</setting>
+    <cura:setting key="retraction_extra_prime_amount">0.01</cura:setting>
     <cura:setting key="klipper_pressure_advance_factor">0.01</cura:setting>
     <cura:setting key="klipper_smooth_time_enable">yes</cura:setting>
     <cura:setting key="klipper_smooth_time_factor">0.01</cura:setting>
+    <cura:setting key="retraction_prime_speed">20</cura:setting>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy3proV2" />
       <setting key="print temperature">200</setting>
