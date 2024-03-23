@@ -9,6 +9,11 @@ if [ ! -e "${CURA_CONFIG_FOLDER}" ]; then
 	exit 1
 fi
 
+if [ ! -e "${CURA_INSTALL_FOLDER}" ]; then
+	echo "Cura folder not found! ${CURA_INSTALL_FOLDER}"
+	exit 1
+fi
+
 set -e
 
 # Disabling built in v400 proiles in cura
@@ -33,3 +38,5 @@ ln -sf "${CURRENT_DIR}/variants/flsun_v400_0.4.inst.cfg" "${CURA_CONFIG_FOLDER}/
 # Install material / variant quality
 [ ! -d "${CURA_CONFIG_FOLDER}/quality/PLA/0.4" ] && mkdir -p "${CURA_CONFIG_FOLDER}/quality/PLA/0.4"
 ln -sf "${CURRENT_DIR}/quality/PLA/0.4/flsun_v400_0.4_PLA_Draft_Print.inst.cfg" "${CURA_CONFIG_FOLDER}/quality/PLA/0.4/flsun_v400_0.4_PLA_Draft_Print.inst.cfg"
+[ ! -d "${CURA_CONFIG_FOLDER}/quality/PETG/0.4" ] && mkdir -p "${CURA_CONFIG_FOLDER}/quality/PETG/0.4"
+ln -sf "${CURRENT_DIR}/quality/PETG/0.4/flsun_v400_0.4_PETG_Draft_Print.inst.cfg" "${CURA_CONFIG_FOLDER}/quality/PETG/0.4/flsun_v400_0.4_PETG_Draft_Print.inst.cfg"
