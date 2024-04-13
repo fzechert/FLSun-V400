@@ -10,6 +10,8 @@
 
 ## PETG
 
+Print Speed ~50-100 mm/s
+
 | Material                | Noz. Temp. | Bed Temp. | Retr. Spd. | Retr. Len. | Unr. Spd. | Unr. Extra Len. | Pres. Adv. | Pres. Adv. Smooth Time |
 |------------------------:|:-----------|:----------|:-----------|:-----------|:----------|:----------------|:-----------|:-----------------------|
-| SunLU Black             |            |           |            |            |           |                 |            |                        |
+| SunLU Black             | 240 °C     | 75 °C     | 50 mm/s    | 0.75       | 20 mm/s   | 0.05 mm         | 0.066      | 0.04                   |
