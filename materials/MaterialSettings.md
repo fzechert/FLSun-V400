@@ -14,4 +14,5 @@ Print Speed ~50-100 mm/s
 
 | Material                | Noz. Temp. | Bed Temp. | Retr. Spd. | Retr. Len. | Unr. Spd. | Unr. Extra Len. | Pres. Adv. | Pres. Adv. Smooth Time |
 |------------------------:|:-----------|:----------|:-----------|:-----------|:----------|:----------------|:-----------|:-----------------------|
-| SunLU Black             | 240 °C     | 75 °C     | 50 mm/s    | 0.75       | 20 mm/s   | 0.00 mm         | 0.066      | 0.04                   |
+| SunLU Black             | 240 °C     | 75 °C     | 50 mm/s    | 0.75 mm    | 38 mm/s   | 0.00 mm         | 0.066      | 0.04                   |
+| SunLU Gray              | 245 °C     | 75 °C     | 50 mm/s    | 1.5 mm     | 38 mm/s   | 0.00 mm         | 0.066      | 0.04                   |
