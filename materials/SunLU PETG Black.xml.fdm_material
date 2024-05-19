@@ -25,15 +25,16 @@
     <setting key="retraction amount">0.75</setting>
     <setting key="retraction speed">50</setting>
     <cura:setting key="retraction_prime_speed">20</cura:setting>
-    <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     <cura:setting key="klipper_smooth_time_enable">yes</cura:setting>
     <cura:setting key="klipper_pressure_advance_factor">0.066</cura:setting>
+    <cura:setting key="klipper_retract_prime_length">0</cura:setting>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy3proV2" />
       <setting key="print temperature">230</setting>
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy3" />
@@ -41,6 +42,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy2pro" />
@@ -48,6 +50,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_xy2" />
@@ -55,6 +58,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_x5sa_500" />
@@ -62,6 +66,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_x5sa_400" />
@@ -69,6 +74,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_x5sa" />
@@ -76,6 +82,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_x" />
@@ -83,6 +90,7 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Tronxy" product="tronxy_d01" />
@@ -90,118 +98,133 @@
       <setting key="heated bed temperature">80</setting>
       <setting key="standby temperature">200</setting>
       <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_ender5" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_ender4" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_ender3" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_ender2" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr20pro" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr20" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10spro" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10s5" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10s4" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10s" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10mini" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Creality3D" product="creality_cr10" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="CreawsomeMod" product="creality_base" />
       <setting key="heated bed temperature">70</setting>
       <setting key="standby temperature">200</setting>
-      <setting key="print cooling">50</setting>
-      <setting key="retraction speed">45</setting>
       <setting key="retraction amount">5</setting>
+      <setting key="retraction speed">45</setting>
+      <setting key="print cooling">50</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Cartesio bv" product="cartesio" />
       <setting key="print temperature">215</setting>
       <setting key="heated bed temperature">85</setting>
       <setting key="standby temperature">120</setting>
-      <setting key="print cooling">0.0</setting>
       <setting key="retraction speed">40</setting>
+      <setting key="print cooling">0.0</setting>
+      <cura:setting key="retraction_extra_prime_amount">0.02</cura:setting>
       <hotend id="0.8mm thermoplastic extruder">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">1.5</setting>
